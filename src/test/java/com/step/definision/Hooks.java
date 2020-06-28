@@ -18,10 +18,10 @@ public class Hooks {
 
 	UtileClass utileClass = new UtileClass();
 
-	//@Before(value = "@AddCustomer")
-	public void launchBrowser() {
-		utileClass.launch("chrome");
-	}
+//	@Before(value = "@AddCustomer")
+//	public void launchBrowser() {
+//		utileClass.launch("chrome");
+//	}
 
 	@Before(value = "@tariffPlan")
 	public void launcher() {
